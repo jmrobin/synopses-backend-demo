@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: synoposes-backend
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/synopses?verifyServerCertificate=false&useSSL=true
+    username: dev
+    password: 
+
+server:
+  port: 3001   
